@@ -1,0 +1,573 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.dau{
+    width: 100%;
+}
+.dau .nennho1 {
+
+    position: absolute;
+    transition: 0.4s;
+    opacity: 0.3;
+}
+.dau .nennho {
+    width: 1440px;
+    height: 80px;
+    position: absolute;
+    transition: 0.4s;
+    opacity: 1;
+}
+
+.dau ul.menu{
+    position: absolute;
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+    margin-left: 400px ;
+    margin-top: 18px;
+
+}
+
+.dau ul.menu li{
+    
+    display: inline-table;
+    width: 100px;
+    text-align: center;
+    padding-left: 20px;
+    
+}
+.dau ul.menu a{
+    margin-right: 70px;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+
+}
+.dau img.logo{
+    
+    position: absolute;
+    margin-top: 3,5px;
+    margin-left: 30px;
+}
+.dau img.coffee{
+    position: absolute;
+    margin-top: 270px;
+    margin-left: 56px;
+}
+.dau p.chucam{
+    position: absolute;
+    font-size: 30px;
+    color: #ff4b00;
+    margin-top: 500px;
+    margin-left: 56px;
+}
+.dau p.chuden{
+    position: absolute;
+    font-size: 25px;
+    color: white;
+    margin-top: 400px;
+    margin-left: 56px;
+}
+.dau .buttontren{
+    position: absolute;
+    border: 2px  solid #251372 ;
+    background-color: #251372;
+    border-radius: 18px;
+    margin-top: 550px;
+    margin-left: 56px;
+}
+.dau .buttontren a.order{
+    color: white;
+    font-size: 24px;
+    margin: 20px 35px;
+}
+
+.dau .buttontren :hover{
+    background-color: #22925e;
+    border: 2px  solid #22925e;
+    border-color: #229252;
+    border-radius: 18px;
+}
+
+
+.ic {
+    margin-top: -5px;
+}
+.ic img.icon1{
+    position:absolute;
+    width: 1440px;
+    
+}
+
+.ic ul.icon2 {
+    margin-left: 350px ;
+    position: absolute;
+    display: flex;
+    padding-top: 350px;
+    margin-left: 180px;
+
+}
+.ic ul.icon2 img.icon3{
+    margin-right: 160px;
+    margin-left: 160px;
+}
+.ic img.hoa{
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 50px;
+
+}
+.ic p.chucogai2{
+    position: absolute;
+    font-size: 25px;
+    color: white;
+    margin-top: 170px;
+    margin-left: 290px;
+    font-size: 40px;
+}
+.ic p.chucogai3{
+    position: absolute;
+    font-size: 25px;
+    color: white;
+    margin-top: 210px;
+    margin-left: 340px;
+    font-size: 40px;
+}
+.ic ul.ico {
+    width: 10px;
+    margin-left: 350px ;
+    position: absolute;
+    display: flex;
+    padding-top: 650px;
+    margin-left: 150px;
+
+}
+.ic ul.ico img.icon3{
+
+    margin-right: 160px;
+    margin-left: 160px;
+}
+.nhi{
+    margin-top: -5px;
+}
+.nhi img.icon1{
+    position:absolute;
+    width: 1440px;
+    
+}
+.nhi img.icon2{
+   position: absolute;
+   padding-top: 200px;
+   padding-left: 750px;
+   
+   
+}
+.nhi img.icon3{
+    position: absolute;
+    padding-top: 200px;
+    padding-left: 50px;
+}
+.nhi p.chunay{
+    position: absolute;
+    font-size: 25px;
+    color: #251372;
+    margin-top: 300px;
+    margin-left: 750px;
+}
+.nhi .button2{
+    position: absolute;
+    border: 2px  solid #251372 ;
+    background-color: #251372;
+    border-radius: 18px;
+    margin-top: 440px;
+    margin-left: 750px;
+}
+.nhi .button2 a.order{
+    color: white;
+    font-size: 30px;
+    margin: 30px 50px;
+}
+.nhi .button2 :hover{
+    background-color: #22925e;
+    border: 2px  solid #22925e;
+    border-color: #229252;
+    border-radius: 18px;
+}
+.bye {
+    margin-top: -5px;
+}
+.bye img.icon1{
+    position:absolute;
+    width: 1440px;
+    
+}
+
+.bye ul.icon2 {
+    
+    position: absolute;
+    display: flex;
+    padding-top: 350px;
+    margin-left: 150px;
+
+}
+.bye ul.icon2 img.icon3{
+    margin-right: 160px;
+    margin-left: 160px;
+}
+.bye img.hoa{
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 50px;
+
+}
+.bye p.chucogai2{
+    position: absolute;
+    font-size: 25px;
+    color: white;
+    margin-top: 170px;
+    margin-left: 290px;
+    font-size: 40px;
+}
+.bye p.chucogai3{
+    position: absolute;
+    font-size: 25px;
+    color: white;
+    margin-top: 210px;
+    margin-left: 340px;
+    font-size: 40px;
+}
+.bye ul.ico {
+    width: 10px;
+    margin-left: 350px ;
+    position: absolute;
+    display: flex;
+    padding-top: 350px;
+    margin-left: 180px;
+
+}
+.bye ul.ico img.icon3{
+    width: 100px;
+    height: 50px;
+    margin-right: 160px;
+    margin-left: 160px;
+}
+.ba{
+    margin-top: -5px;
+}
+
+.ba img.icon2{
+    
+    position: absolute;
+    padding-top: 200px;
+    padding-left: 890px;
+   
+}
+.ba img.icon1{
+    position:absolute;
+    width: 1440px;
+}
+.ba img.icon3{
+    
+    position: absolute;
+    padding-top: 300px;
+    padding-left: 56px;
+    position:absolute;
+}
+
+.ba p.chunay{
+    position: absolute;
+    font-size: 25px;
+    color: #251372;
+    margin-top: 400px;
+    margin-left: 56px;
+}
+.ba .button3{
+    position: absolute;
+    border: 2px  solid #251372 ;
+    background-color: #251372;
+    border-radius: 18px;
+    margin-top: 550px;
+    margin-left: 56px;
+}
+.ba .button3 a.order{
+    color: white;
+    font-size: 24px;
+    margin: 20px 35px;
+}
+
+.ba .button3 :hover{
+    background-color: #22925e;
+    border: 2px  solid #22925e;
+    border-color: #229252;
+    border-radius: 18px;
+}
+.bon{
+    margin-top: -5px;
+}
+.bon .hinhmau {
+
+    height: 1030px;
+    background-color: black;    
+    position: absolute;
+    transition: 0.4s;
+    opacity: 0.7;
+}
+
+.bon img.cogai{
+    position: absolute;
+    margin-top:230px ;
+    margin-left: 610px;
+    
+}
+.bon p.chuhinhcogai{
+    position: absolute;
+    font-size: 25px;
+    color: white;
+    margin-top: 500px;
+    margin-left: 300px;
+    font-size: 40px;
+}
+.bon p.chucogai2{
+    position: absolute;
+    font-size: 25px;
+    color: white;
+    margin-top: 540px;
+    margin-left: 290px;
+    font-size: 40px;
+}
+.bon p.chucogai3{
+    position: absolute;
+    font-size: 25px;
+    color: white;
+    margin-top: 580px;
+    margin-left: 340px;
+    font-size: 40px;
+}
+.bon img.chumautrang{
+    position: absolute;
+    padding-top: 730px;
+    width: 400px;
+    padding-left: 510px;
+    position:absolute;
+}
+.quangtuyen{
+    margin-top: -5px;
+}
+
+.quangtuyen img.anhsang{
+    position: absolute;
+    margin-left: 90px;
+}
+.quangtuyen img.anhsang1{
+    
+    position: absolute;
+    padding-top: 200px;
+    padding-left: 500px;
+   
+}
+.quangtuyen p.chucogai2{
+    position: absolute;
+    font-size: 25px;
+    color: #251372;
+    margin-top: 320px;
+    margin-left: 290px;
+    font-size: 40px;
+}
+.quangtuyen p.chucogai3{
+    position: absolute;
+    font-size: 25px;
+    color: #251372;
+    margin-top: 360px;
+    margin-left: 340px;
+    font-size: 40px;
+}
+.quangtuyen form input{
+    position: absolute;
+    border: 2px solid white;
+    font-size: 30px;
+    size: 100px;
+    width: 800px;
+    height: 50px;
+    margin-top: 450px;
+    margin-left: 350px;
+    border-radius: 100px;
+
+}
+.quangtuyen .button4{
+    position: absolute;
+    border: 2px  solid #251372 ;
+    background-color: #251372;
+    border-radius: 100px;
+    margin-top: 450px;
+    margin-left: 1050px;
+    font-size: 30px;
+    height: 50px;
+    width: 200px;
+}
+.quangtuyen .button4 a.order{
+    color: white;
+    margin:30px  ;
+    margin-top: 100px;
+}
+
+.quangtuyen .button4 :hover{
+    background-color: #22925e;
+    border: 2px  solid #22925e;
+    border-color: #229252;
+    border-radius: 100px;
+    margin-top: 450px;
+    margin-left: 1050px;
+    font-size: 30px;
+    height: 50px;
+    width: 200px;
+}
+.trangcuoi {
+    margin-top: -5px;
+}
+.trangcuoi ul{
+    list-style: none;
+}
+.trangcuoi ul.icon2 {
+    margin-left: 350px ;
+    position: absolute;
+    display: flex;
+    padding-top: 420px;
+    margin-left: 110px;
+
+}
+.trangcuoi ul.icon2 img.icon3{
+    margin-right: 10px;
+    
+}
+.trangcuoi ul.icon2 img.icon2{
+
+
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.trangcuoi img.tiu{
+    
+    position: absolute;
+    padding-top: 200px;
+    padding-left: 70px;
+   
+}
+.trangcuoi p.chucogai2{
+    position: absolute;
+    font-size: 27px;
+    color: white;
+    margin-top: 290px;
+    margin-left: 110px;
+}
+.trangcuoi ul.menu{
+    position: absolute;
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+    margin-left: 700px;
+    margin-top: 229px;
+}
+
+.trangcuoi ul.menu li{
+    
+    width: 100px;
+    text-align: center;
+
+    
+}
+.trangcuoi ul.menu a{
+    margin-right: 70px;
+    font-size: 35px;
+    color: white;
+    text-decoration: none;
+
+}
+.trangcuoi ul.menu li.kcach{
+    padding-right:200px ;
+    padding-left: 200px;
+}
+.trangcuoi ul.list1{
+    position: absolute;
+    
+    list-style-type: none;
+    text-align: center;
+    margin-left: 700px;
+    margin-top: 280px;    
+}
+.trangcuoi ul.list1 li{
+    
+     width: 100px;
+     text-align: center;
+}
+ .trangcuoi ul.list1 a{
+     margin-right: 70px;
+     font-size: 20px;
+     color: white;
+     text-decoration: none;
+ 
+ }
+
+
+ .trangcuoi ul.list2{
+    position: absolute;
+    
+    list-style-type: none;
+    text-align: center;
+    margin-left: 1000px;
+    margin-top: 280px;
+
+    
+}
+.trangcuoi ul.list2 li{
+    
+    width: 100px;
+     text-align: center;
+}
+ .trangcuoi ul.list2 a{
+     margin-right: 70px;
+     font-size: 20px;
+     color: white;
+     text-decoration: none;
+ 
+ }
+ .trangcuoi ul.list3{
+    position: absolute;
+    
+    list-style-type: none;
+    text-align: center;
+    margin-left: 1300px;
+    margin-top: 280px;
+
+    
+}
+.trangcuoi ul.list3 li{
+    
+    width: 100px;
+     text-align: center;
+}
+ .trangcuoi ul.list3 a{
+     margin-right: 70px;
+     font-size: 20px;
+     color: white;
+     text-decoration: none;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
